@@ -30,13 +30,6 @@ void bubbleSort (int* pData, int n) {
 				pData[j] = pData[j + 1];
 				pData[j + 1] = temp;
                 swap++;
-                /*
-                printf("Iteration: ");
-                for (int i = 0; i < n; i++) {
-                    printf("%i ", pData[i]);
-                }
-                printf("\n");
-                */
 			}
 		}
         printf("Number of swaps for index %i is %i\n", i, swap);
