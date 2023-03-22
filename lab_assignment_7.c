@@ -16,6 +16,12 @@ int main () {
 
     bubbleSort(array, count);
 
+    printf("\nSorted array: ");
+    for (int i = 0; i < count; i++) {
+        printf("%i ", array[i]);
+    }
+    printf("\n\n");
+
 
 }
 
